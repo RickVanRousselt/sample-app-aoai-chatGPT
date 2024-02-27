@@ -33,7 +33,7 @@
 
 .headerIcon {
     height: 32px;
-    width: 32px;
+    width: auto;
     margin-left: 36px;
 }
 
@@ -110,4 +110,14 @@
     display: flex;
     align-items: center;
     color: #242424;
+}
+
+@media (max-width: 480px) {
+    .headerTitleContainer {
+        margin-left: 4px;
+    }
+
+    .headerIcon {
+        margin-left: 26px;
+    }
 }
